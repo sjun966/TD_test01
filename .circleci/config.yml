@@ -26,7 +26,6 @@ workflows:
   build-n-deploy:
     jobs:
       - digdag
-      - 
       # If you would like to restrict branches/tags to running Digdag jobs, use `filters` option.
       # Following filter means `digdag` job will run only `dev` and `user-` starting branches.
       # @see: https://circleci.com/docs/2.0/workflows/
